@@ -1,0 +1,6 @@
+CREATE TABLE genero(
+id SERIAL PRIMARY KEY,
+nome VARCHAR(100) NOT NULL
+);
+
+SELECT * FROM genero;
