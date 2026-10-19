@@ -1,0 +1,7 @@
+CREATE TABLE autores (
+id SERIAL PRIMARY KEY,
+nome VARCHAR(150) NOT NULL,
+nacionalidade VARCHAR(20) NOT NULL
+);
+
+SELECT * FROM autores;
