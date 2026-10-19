@@ -10,3 +10,4 @@ DELETE FROM genero WHERE nome = 'Alice Maria';
 DELETE FROM genero WHERE nome = 'Roberto Matheus';
 DELETE FROM genero WHERE nome = 'Ana Elisa';
 DELETE FROM genero WHERE nome = 'William Freire';
+INSERT INTO genero(nome) VALUES ('Feminino'), ('Masculino'), ('Não Binário'), ('Outro');
