@@ -1,0 +1,16 @@
+ALTER TABLE autores ADD COLUMN livro VARCHAR(40);
+ALTER TABLE autores ADD COLUMN ano_livro INTEGER;
+SELECT * FROM autores;
+UPDATE autores SET livro = 'A Mente Milionária' WHERE nome = 'Thomas J. Stanley';
+UPDATE autores SET ano_livro = 2010 WHERE livro = 'A Mente Milionária';
+UPDATE autores SET livro = 'Harry Potter e a Ordem da Fênix' WHERE nome = 'J.K Rowling';
+UPDATE autores SET ano_livro = 2007 WHERE livro = 'Harry Potter e a Ordem da Fênix';
+UPDATE autores SET livro = 'Fazendo Meu Filme' WHERE nome = 'Paula Pimenta';
+UPDATE autores SET ano_livro = 2007 WHERE livro = 'Fazendo Meu Filme';
+UPDATE autores SET livro = 'Dom Casmurro' WHERE nome = 'Machado de Assis';
+UPDATE autores SET ano_livro = 1889 WHERE livro = 'Dom Casmurro';
+UPDATE autores SET livro = 'Romeu e Julieta' WHERE nome = 'William Shakespeare';
+UPDATE autores SET ano_livro = 1597 WHERE livro = 'Romeu e Julieta';
+UPDATE autores SET livro = 'O livro dos seres imaginários' WHERE nome = 'Jorge Luis Borges';
+UPDATE autores SET ano_livro = 1967 WHERE livro = 'O livro dos seres imaginários';
+SELECT * FROM autores ORDER BY id ASC;
